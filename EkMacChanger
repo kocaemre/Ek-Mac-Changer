@@ -3,7 +3,7 @@ import optparse
 
 parse_object = optparse.OptionParser()
 parse_object.add_option("-i","--interface",dest="interface",help="You can enter the interface which you use")
-parse_object.add_option("-m","--mac",dest="mac_address",help="YOu can enter the mac adress which you use")
+parse_object.add_option("-m","--mac",dest="mac_address",help="You can enter the mac adress which you want")
 print("Welcome to EkMacChanger!")
 
 
